@@ -1,0 +1,85 @@
+.adBanner{
+	background-color: lightgray;
+	text-align: center;
+	color: white;
+	margin: 20px 20px;
+}
+.header{
+	background-color: #262626;
+	color: white;
+	max-width: 100%;
+	margin: 20px;
+	position: relative;
+}
+.top_header{
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+.header a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	padding:10px;
+}
+.line{
+	display:inline;
+}
+.menu-icon{
+	display:inline;
+	float:left;
+	margin:10px 10px 0 10px;
+	width: 25%;
+}
+.logo-icon{
+	display:inline-block;
+	width:50%;
+	text-align: center;
+}
+.logo-icon img{
+	height:40px;
+	width:100%;
+}
+.social{
+	display:inline;
+	float:right;
+	margin-top:10px;
+	position:relative;
+}
+.social a{
+	font-size: 16px;
+	padding-right: 15px;
+}
+.bottom_header{
+	list-style-type:none;
+	height: 80px;
+	text-align: center;
+}
+.top_line{
+	margin: 0;
+	padding-top: 10px;
+}
+.bottom_line{
+	padding-top: 15px;
+}
+.bottom_line a{
+	font-weight: normal;
+}
+.bottom_header li{
+	display: inline;
+}
+@media (max-width: 780px){
+	.menu-icon span{
+		display:none;
+	}
+	.menu-icon a{
+		font-size:20px;
+		padding:10px;
+	}
+	.social{
+		display:none;
+	}
+	.header a{
+		padding: 2px;
+	}
+}
