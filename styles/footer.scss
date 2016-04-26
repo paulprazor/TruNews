@@ -1,63 +1,48 @@
-.footer{
+footer{
 	background-color: #262626;
     color: white;
-    margin: 20px;
-    padding:0;
     font-weight: bold;
+    margin:20px;
 }
 .footer-menu li{
-	list-style-type:none;
 	height: 80px;
 	text-align: center;
 	display:inline;
 }
-.footer a{
+footer a{
 	color:white;
 }
-.top{
-	width: 100%;
+#top_footer{
     border-bottom: 1px solid #ccc;
-    float: left;
+    padding:10px;
 }
-.top ul{
-	width:33%;
-	float:left;
-	padding:20px;
-	list-style:none;
+#top_footer ul{
 	margin:0;
 }
-.footer-links{
-	display:block;
-	vertical-align: top;
-}
-.footer-links li{
+#footer-links li{
 	display:inline-block;
 	padding-left:10px;
 }
-.footer-links a{
+#footer-links a{
 	text-decoration: none;
 }
-.footer-links span{
-	vertical-align: top;
-}
-.truNewsInfo{
+#truNewsInfo{
 	font-size:12px;
 }
-.truNewsInfo span{
+#truNewsInfo span{
 	line-height:20px;
 	font-weight:normal;
 }
-.bottom{
-	list-style: none;
+#bottom{
 	width:100%;
 	font-size:12px;
 	text-align:center;
-	margin:10px 0 10px 0;
+	margin:10px;
 }
 .bottom ul{
 	margin:0;
 }
-.bottom li{
+#bottom li{
 	display:inline;
 	padding: 0 5px 0 5px;
 }
@@ -73,10 +58,10 @@
 	font-size: 6px;
 }
 @media (max-width: 780px){
-	.top{
+	#top{
 		display:none;
 	}
-	.footer{
+	footer{
 		padding:40px;
 	}
 }

@@ -4,18 +4,16 @@
 	color: white;
 	margin: 20px 20px;
 }
-.header{
+header{
 	background-color: #262626;
 	color: white;
-	max-width: 100%;
 	margin: 20px;
-	position: relative;
 }
-.top_header{
+#top_header{
 	border-bottom: 1px solid #ccc;
 	padding: 10px;
 }
-.header a{
+header a{
 	color: white;
 	text-decoration: none;
 	font-size: 12px;
@@ -25,35 +23,34 @@
 .line{
 	display:inline;
 }
-.menu-icon{
+#menu-icon{
 	display:inline;
 	float:left;
 	margin:10px 10px 0 10px;
-	width: 25%;
 }
-.logo-icon{
+#logo-icon{
 	display:inline-block;
 	width:50%;
 	text-align: center;
 }
-.logo-icon img{
-	height:40px;
-	width:400px;
-}
-.social{
+#social{
 	display:inline;
 	float:right;
 	margin-top:10px;
 	position:relative;
 }
-.social a{
+#social a{
 	font-size: 16px;
 	padding-right: 15px;
 }
-.bottom_header{
+#bottom_header{
 	list-style-type:none;
-	height: 80px;
 	text-align: center;
+	padding:0;
+}
+
+#bottom_header li{
+	display: inline;
 }
 .top_line{
 	margin: 0;
@@ -65,26 +62,18 @@
 .bottom_line a{
 	font-weight: normal;
 }
-.bottom_header li{
-	display: inline;
-}
-@media (max-width: 780px){
-	.menu-icon span{
+@media (max-width: 769px){
+	#menu-icon span{
 		display:none;
 	}
-	.menu-icon a{
+	#menu-icon a{
 		font-size:20px;
 		padding:10px;
 	}
-	.social{
+	#social{
 		display:none;
 	}
-	.header a{
+	header a{
 		padding: 2px;
-	}
-}
-@media (max-width: 910px){
-	.logo-icon img{
-		width:100%;
 	}
 }
