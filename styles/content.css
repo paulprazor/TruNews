@@ -11,6 +11,7 @@
 	color: white;
 	margin:10px;
 	position:relative;
+	padding:0;
 }
 #large-img{
 	padding:10px;
@@ -38,4 +39,9 @@
 	border: 1px solid #5779a8;
     padding: 10px;
     margin: 0 20px 0 20px;
+}
+@media (max-width: 769px){
+	#topHeadlines{
+		padding:8px;
+	}
 }
