@@ -1,0 +1,23 @@
+#main-article h5{
+	padding-bottom: 10px;
+}
+#main-article img{
+	padding-bottom: 15px;
+}
+#article{
+	line-height: 1.3;
+}
+#side-title p{
+	font-weight: bold;
+	margin:0;
+	padding-bottom: 10px;
+}
+#side-img{
+	padding-bottom: 15px;
+}
+#side-info{
+	font-weight: bold;
+}
+#side-article{
+	line-height: 1.3;
+}

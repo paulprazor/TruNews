@@ -1,0 +1,12 @@
+[class*='span-']:last-of-type {
+	padding:2em;
+}
+.underline{
+	text-decoration: underline;
+}
+.orange-text{
+	color: #d35400;
+}
+.seperate{
+	border-right: 1px solid #ccc;
+}
