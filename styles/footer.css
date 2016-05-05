@@ -1,11 +1,11 @@
 footer{
 	color: #fff;
 	background-color: #262626;
-	margin: 20px;
 }
 footer a{
 	text-decoration: none;
 	color: #fff;
+	font-family: 'Nunito', sans-serif;
 }
 footer i{
 	margin-bottom:25px;
@@ -36,15 +36,18 @@ footer p{
 #footer-bottom li{
 	margin: 0;
 	line-height: 1em;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	padding: 0 6px 0 6px;
 }
 .trademark{
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .trademark span{
 	vertical-align: top;
 	font-size: 6px;
+}
+.footer-top a:hover {
+    border-bottom: 2px solid #fff;
 }
 @media (max-width: 780px){
 	.footer-top{

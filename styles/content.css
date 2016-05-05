@@ -1,17 +1,19 @@
+.adBanner{
+	background-color: lightgray;
+	color: white;
+	margin: 20px 0 20px 0;
+}
 #topHeadlines{
 	color: white;
-	margin:10px;
 	position:relative;
 	padding:0;
+	margin-bottom: 20px;
 }
-#large-img{
-	padding:10px;
-}
-#large-img span{
+.topHeadlines{
 	position:absolute;
  	color:white;
- 	top:10px;
- 	left:10px;
+ 	top:0;
+ 	left:0;
  	font-size:20px;
  	font-weight: bold;
  	width:100%;
@@ -20,16 +22,28 @@
 	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,0.5) 50%,rgba(32,124,202,0) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(41,137,216,0.5) 50%,rgba(32,124,202,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-#small-img{
-	padding:10px;
+.title, .article{
+	position:absolute;
+ 	color:white;
+	bottom:0;
+	left:0;
+	display:block;
+	overflow: none;
 }
 #listenNow{
-	color: #5779a8;
+	color: #3d5576;
 	font-weight: bold;
 	text-decoration: none;
-	border: 1px solid #5779a8;
-    padding: 10px;
-    margin: 0 20px 0 20px;
+	border: 2px solid #3d5576;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+.content{
+	margin-top: 10px;
+}
+.content img{
+	padding: 10px;
 }
 @media (max-width: 769px){
 	#topHeadlines{

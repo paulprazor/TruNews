@@ -1,50 +1,60 @@
 .adBanner{
 	background-color: lightgray;
-	text-align: center;
 	color: white;
-	margin: 20px 20px;
+	margin-top: 10px;
 }
 header{
 	color: #fff;
 	background-color: #262626;
-	margin: 20px;
-}
-a{
-	text-decoration: none;
 }
 header a{
 	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
 }
 #headerNavTop{
 	padding: 15px;
 	border-bottom: 1px solid #ccc;
-}
-.large{
-	font-size: 1.8rem;
+	height:76px;
 }
 #headerTopMenu{
 	padding: 10px;
+	font-size: 1rem;
 }
 #header-logo img{
-	height: 58px;
+	height: 45px;
 }
 #social{
 	padding: 10px;
 }
-#headerNavBottom{
-	font-size: 1rem;
+#social li{
+	margin-right: 1.2em;
+	font-size: 2.2rem;
+}
+#headerNavBottom ul{
+	font-size: 1.3rem;
 }
 #headerNavBottom li{
 	margin:0;
+}
+#headerNavBottom a:hover {
+    border-bottom: 2px solid #fff;
+}
+#lowerMainMenu{
+	padding-bottom: 10px;
 }
 #lowerMainMenu li{
 	padding: 0 10px 0 10px;
 	margin-top: 10px;
 }
-#lowerSubMenu{
-	padding: 10px 0 10px 0;
+.about{
+	cursor:pointer;
 }
-#lowerSubMenu li a{
+#aboutSubMenu{
+	padding-bottom: 10px;
+	display:none;
+}
+#aboutSubMenu li a{
 	padding: 0 6px 0 6px;
 }
 @media (max-width: 870px){

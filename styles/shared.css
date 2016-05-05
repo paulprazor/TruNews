@@ -4,6 +4,9 @@
 .underline{
 	text-decoration: underline;
 }
+.decorate_none{
+	text-decoration: none;
+}
 .orange-text{
 	color: #d35400;
 }
