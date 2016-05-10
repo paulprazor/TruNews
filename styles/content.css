@@ -87,6 +87,24 @@
 .content{
 	margin-top: 10px;
 }
+.streamcast{
+	color:white;
+	background: #1e5799;
+	width:100%;
+	margin-top: 2px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	margin-bottom: 25px;
+}
+.streamcast-container a{
+	text-decoration: none;
+	color: black;
+}
+.streamcast-text p{
+	font-size: 16px;
+	padding-top: 5px;
+}
 
 @media (max-width: 769px){
 	#topHeadlines{
