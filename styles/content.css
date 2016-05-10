@@ -6,8 +6,6 @@
 #topHeadlines{
 	color: white;
 	position:relative;
-	padding:0;
-	margin-bottom: 20px;
 }
 .topHeadlines{
 	position:absolute;
@@ -42,11 +40,48 @@
 .content{
 	margin-top: 10px;
 }
-.content img{
-	padding: 10px;
-}
+
 @media (max-width: 769px){
 	#topHeadlines{
 		padding:8px;
 	}
+}
+
+
+
+.topHeadlines-container{
+	max-height: 405px;
+	overflow: hidden;
+}
+.topHeadlines-image{
+	width: 100%
+}
+
+
+
+
+.features{
+	padding: 0 0 0 10px;
+}
+
+.features-article{
+	padding: 0 10px 10px 0 !important;
+}
+
+.features-article:nth-of-type(even){
+	float: right;
+}
+
+.features-article:last-of-type{
+	padding: 0
+}
+
+.features-articleImage{
+	width: 100%
+}
+
+
+
+.ad{
+	padding: 0 20px;
 }
