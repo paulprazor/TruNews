@@ -1,11 +1,20 @@
-.adBanner{
-	background-color: lightgray;
+.ad{
+	padding: 0 20px;
+}
+.ad-image{
+	background-color: #ccc;
+	width:100%;
+	height: 60px;
 	color: white;
 	margin: 20px 0 20px 0;
 }
 #topHeadlines{
 	color: white;
 	position:relative;
+}
+.topHeadlines-container{
+	max-height: 405px;
+	overflow: hidden;
 }
 .topHeadlines{
 	position:absolute;
@@ -20,13 +29,51 @@
 	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,0.5) 50%,rgba(32,124,202,0) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(41,137,216,0.5) 50%,rgba(32,124,202,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-.title, .article{
+.topHeadlines-image{
+	width: 100%
+}
+.features{
+	padding: 0 0 0 10px;
+}
+.features-article{
+	padding: 0 10px 10px 0 !important;
+}
+
+.features-article:nth-of-type(even){
+	float: right;
+}
+
+.features-article:last-of-type{
+	padding: 0;
+}
+
+.features-articleImage{
+	width: 100%
+}
+.title, .subtitle{
 	position:absolute;
  	color:white;
-	bottom:0;
-	left:0;
 	display:block;
-	overflow: none;
+}
+.title{
+	left: 5px;
+	bottom: 50px;
+	white-space: pre-wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.subtitle{
+	left: 5px;
+	bottom:0;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.content .title{
+	left: 15px;
+}
+.content .subtitle{
+	left:15px;
 }
 #listenNow{
 	color: #3d5576;
@@ -45,43 +92,4 @@
 	#topHeadlines{
 		padding:8px;
 	}
-}
-
-
-
-.topHeadlines-container{
-	max-height: 405px;
-	overflow: hidden;
-}
-.topHeadlines-image{
-	width: 100%
-}
-
-
-
-
-.features{
-	padding: 0 0 0 10px;
-}
-
-.features-article{
-	padding: 0 10px 10px 0 !important;
-}
-
-.features-article:nth-of-type(even){
-	float: right;
-}
-
-.features-article:last-of-type{
-	padding: 0
-}
-
-.features-articleImage{
-	width: 100%
-}
-
-
-
-.ad{
-	padding: 0 20px;
 }
