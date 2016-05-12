@@ -97,6 +97,9 @@
 	padding: 5px;
 	margin-bottom: 25px;
 }
+.streamcast-container{
+	height: 600px;
+}
 .streamcast-container a{
 	text-decoration: none;
 	color: black;
@@ -105,9 +108,24 @@
 	font-size: 16px;
 	padding-top: 5px;
 }
+.carousel:after{
+	content:'';
+}
 
 @media (max-width: 769px){
 	#topHeadlines{
 		padding:8px;
+	}
+	.carousel:after{
+		content:'flickity';
+		display:none;
+	}
+	.carousel-cell {
+	  width: 100%;
+	  counter-increment: gallery-cell;
+	}
+	.carousel-cell:before {
+	  display: block;
+	  content: counter(gallery-cell);
 	}
 }

@@ -15,9 +15,13 @@
 	<link rel='stylesheet' type='text/css' href='styles/footer.css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Nunito:400' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' type='text/css' href='styles/flickity.css'>
 
 	<script src="scripts/jquery-1.12.3.min.js"></script>
 	<script src="scripts/header.js"></script>
+	<script src="scripts/headlines.js"></script>
+	<script src="scripts/flickity.js"></script>
+	
 </head>
 
 <body>
@@ -88,10 +92,9 @@
 			<img src="" class="ad-image" alt="this will be a banner ad image">
 		</div>
 
-		<div class='span-1-1' id="topHeadlines">
-			<div class='no-pad span-2-4-md span-1-1-sm topHeadlines-container'>
+		<div class='span-1-1 carousel js-flickity' data-flickity-options='{ "watchCSS": true }' id="topHeadlines">
+			<div class='carousel-cell no-pad span-2-4-md topHeadlines-container'>
 				<span class='topHeadlines'>Top Headlines</span>
-
 				<a href=''>
 					<img src='images/r-681.jpeg' class='topHeadlines-image'>
 					<div class='image-text'>
@@ -99,11 +102,10 @@
 						<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
 					</div>
 				</a>
-				
 			</div>
 
 			<div class="grid features">
-				<div class='span-1-2-md span-1-1-sm features-article'>
+				<div class='carousel-cell span-1-2-md features-article'>
 					<a href=''>
 						<img src='images/r-681.jpeg' class='features-articleImage'>
 						<div class='image-text'>
@@ -113,7 +115,7 @@
 					</a>
 				</div>
 
-				<div class='span-1-2-md span-1-1-sm features-article'>
+				<div class='carousel-cell span-1-2-md features-article'>
 					<a href=''>
 						<img src='images/r-681.jpeg' class='features-articleImage'>
 						<div class='image-text'>
@@ -123,7 +125,7 @@
 					</a>
 				</div>
 
-				<div class='span-1-2-md span-1-1-sm features-article'>
+				<div class='carousel-cell span-1-2-md features-article'>
 					<a href=''>
 						<img src='images/r-681.jpeg' class='features-articleImage'>
 						<div class='image-text'>
@@ -133,7 +135,7 @@
 					</a>
 				</div>
 
-				<div class='span-1-2-md span-1-1-sm features-article'>
+				<div class='carousel-cell span-1-2-md features-article'>
 					<a href=''>
 						<img src='images/r-681.jpeg' class='features-articleImage'>
 						<div class='image-text'>
