@@ -16,6 +16,9 @@ header a{
 	padding: 10px;
 	font-size: 1.4rem;
 }
+#headerTopMenu a{
+	padding-left: 10px;
+}
 #header-logo img{
 	height: 45px;
 }

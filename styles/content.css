@@ -8,12 +8,18 @@
 	color: white;
 	margin: 20px 0 20px 0;
 }
+// .topHeadlines-image{
+// 	background-image: -webkit-linear-gradient(rgba(76,76,76,0) 0%, rgba(89,89,89,0) 12%, rgba(102,102,102,0) 25%, rgba(71,71,71,0) 39%, rgba(44,44,44,0) 50%, rgba(0,0,0,0.02) 51%, rgba(17,17,17,0.2) 60%, rgba(43,43,43,0.52) 76%, rgba(28,28,28,0.82) 91%, rgba(19,19,19,1) 100%);
+// 	background-image: -o-linear-gradient(rgba(76,76,76,0) 0%, rgba(89,89,89,0) 12%, rgba(102,102,102,0) 25%, rgba(71,71,71,0) 39%, rgba(44,44,44,0) 50%, rgba(0,0,0,0.02) 51%, rgba(17,17,17,0.2) 60%, rgba(43,43,43,0.52) 76%, rgba(28,28,28,0.82) 91%, rgba(19,19,19,1) 100%);
+// 	background-image: linear-gradient(rgba(76,76,76,0) 0%, rgba(89,89,89,0) 12%, rgba(102,102,102,0) 25%, rgba(71,71,71,0) 39%, rgba(44,44,44,0) 50%, rgba(0,0,0,0.02) 51%, rgba(17,17,17,0.2) 60%, rgba(43,43,43,0.52) 76%, rgba(28,28,28,0.82) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */	
+// }	
 #topHeadlines{
 	color: white;
 	position:relative;
 }
 .topHeadlines-container{
-	max-height: 405px;
+	//max-height: 405px;
 	overflow: hidden;
 }
 .topHeadlines{
@@ -54,26 +60,34 @@
 	position:absolute;
  	color:white;
 	display:block;
+	width:93%;
+	text-overflow:clip;
+	overflow:hidden;
 }
 .title{
 	left: 5px;
 	bottom: 50px;
 	white-space: pre-wrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
 }
 .subtitle{
 	left: 5px;
 	bottom:0;
 	white-space: nowrap;
-	text-overflow:ellipsis;
-	overflow:hidden;
+}
+.topHeadlines-container .subtitle{
+	width:100%;
 }
 .content .title{
 	left: 15px;
+	width: 65%;
+	height: 50px;
 }
 .content .subtitle{
-	left:15px;
+	left: 15px;
+    width: 65%;
+    height: 40px;
+    white-space: pre-wrap;
+    margin: 0 0 1rem;
 }
 #listenNow{
 	color: #3d5576;
@@ -87,6 +101,13 @@
 .content{
 	margin-top: 10px;
 }
+.row2{
+	width: 67%;
+}
+#row2:last-of-type{
+	float: left;
+	padding: 10px;
+}
 .streamcast{
 	color:white;
 	background: #1e5799;
@@ -96,9 +117,6 @@
 	font-weight: bold;
 	padding: 5px;
 	margin-bottom: 25px;
-}
-.streamcast-container{
-	height: 600px;
 }
 .streamcast-container a{
 	text-decoration: none;
@@ -111,7 +129,14 @@
 .carousel:after{
 	content:'';
 }
-
+@media (max-width: 950px){
+	.title{
+		font-size: 1.8rem;
+	}
+	.content .title{
+		height: 35px;
+	}
+}
 @media (max-width: 769px){
 	#topHeadlines{
 		padding:8px;
