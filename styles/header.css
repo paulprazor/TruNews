@@ -67,7 +67,7 @@ header a{
 	#social li{
 		display: none;
 	}
-	#headerTopMenu li{
+	#headerTopMenu li a{
 		display: none;
 	}
 	#headerNavBottom{

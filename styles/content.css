@@ -10,15 +10,23 @@
 }
 .image-text{
 	position:absolute;
-	// bottom:0;
     background: -webkit-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* Standard syntax (must be last) */
+}
+.content .image-text h3{
+	font-size: 1.8rem;
 }	
+.content .image-text p{
+	font-size: 1.2rem;
+}
 #topHeadlines{
 	color: white;
 	position:relative;
+}
+.topHeadlines-container{
+	padding: 0;		
 }
 .topHeadlines-container .image-text{
 	width: 100%;
@@ -71,34 +79,27 @@
 .title, .subtitle{
  	color:white;
 	display:block;
-	// width:93%;
 	text-overflow:clip;
 	overflow:hidden;
+	margin: 5px 0 0 5px;
 }
 .title{
-	left: 5px;
-	bottom: 50px;
 	white-space: pre-wrap;
 }
 .subtitle{
-	left: 5px;
-	bottom:0;
 	white-space: nowrap;
 }
 .topHeadlines-container .subtitle{
 	width:100%;
 }
 .content .title{
-	left: 15px;
 	width: 65%;
-	height: 50px;
+	height: 52px;
 }
 .content .subtitle{
-	left: 15px;
     width: 65%;
     height: 40px;
     white-space: pre-wrap;
-    margin: 0 0 1rem;
 }
 #listenNow{
 	color: #3d5576;
@@ -136,11 +137,11 @@
 	font-size: 16px;
 	padding-top: 5px;
 }
+.streamcast-text h4{
+	font-size: 1.8rem;
+}
 .streamcastRows{
 	overflow:hidden;
-}
-.carousel:after{
-	content:'';
 }
 @media (max-width: 950px){
 	.title{
@@ -154,16 +155,35 @@
 	#topHeadlines{
 		padding:8px;
 	}
-	.carousel:after{
-		content:'flickity';
-		display:none;
+	.topHeadlines-container{
+		padding: 10px;
 	}
-	.carousel-cell {
-	  width: 100%;
-	  counter-increment: gallery-cell;
+	.topHeadlines{
+		top: 10px;
+		left: 10px;
 	}
-	.carousel-cell:before {
-	  display: block;
-	  content: counter(gallery-cell);
+	.topHeadlines-container .image-text{
+		bottom:10px;
+		width: 97%;
+	}
+	.features-article .image-text{
+		width: 98%;
+	}
+	.content .image-text{
+		width: 97%;
+	}
+	.streamcast-container{
+		margin: 0;
+	}
+}
+@media (max-width: 420px){
+	.topHeadlines-container .image-text{
+		width: 94%;
+	}
+	.features-article .image-text{
+		width: 97%;
+	}
+	.content .image-text{
+		width: 94%;
 	}
 }
