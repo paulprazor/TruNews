@@ -125,6 +125,9 @@
 	padding: 5px;
 	margin-bottom: 25px;
 }
+.streamcast-container{
+	margin-bottom: -350px;
+}
 .streamcast-container a{
 	text-decoration: none;
 	color: black;
@@ -132,6 +135,9 @@
 .streamcast-text p{
 	font-size: 16px;
 	padding-top: 5px;
+}
+.streamcastRows{
+	overflow:hidden;
 }
 .carousel:after{
 	content:'';
