@@ -9,7 +9,7 @@
 	<title>TRUNEWS with Rick Wiles The Real News, Uncensored.</title>
 	<link rel='stylesheet' type='text/css' href='styles/framework-mx.css'>
 	<link rel='stylesheet' type='text/css' href='styles/header.css'>
-	<link rel='stylesheet' type='text/css' href='styles/content.css'>
+	<link rel='stylesheet' type='text/css' href='styles/landingContent.css'>
 	<link rel='stylesheet' type='text/css' href='styles/shared.css'>
 	<link rel='stylesheet' type='text/css' href='styles/footer.css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -18,6 +18,8 @@
 
 	<script src="scripts/jquery-1.12.3.min.js"></script>
 	<script src="scripts/header.js"></script>
+	<script src="scripts/jquery.jcarousel.min.js"></script>
+	<script src="scripts/carousel.js"></script>
   </head>
   <body>
 	<div class='grid no-pad span-1-1'>
@@ -89,46 +91,67 @@
 	  </header>
   	</div>
 	<div class='grid span-1-1'>
-	  <div class='no-pad span-1-1'>
-		<div class='span-2-3-lg span-1-1' id='main-article'>
-		  <h5>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. </h5>
+	  <div class='span-1-1'>
+		<div class='span-2-3-md span-1-1 main-article'>
+		  <h2>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. </h2>
 		  <img src='images/r-681.jpeg' class='flex-img'>
-		  <span id='article'>
-			<p><b>WASHINGTON - </b>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. Utamur aperiri ad nec, timeam veritus qualisque no has. Assum erroribus suscipiantur eum ne, tota iuvaret eu mea. Inimicus splendide voluptaria sed cu, sea dicat mollis an.</p>
-
-			<p>An tale complectitur interpretaris est, percipitur accommodare at nec, in simul feugiat est. Ius tota laboramus democritum cu, ex mea alii delicatissimi. Id explicari persequeris vim, meliore incorrupte usu ei. Ad mel oporteat referrentur, quo ne ullum choro reprehendunt, ne mel populo delicatissimi necessitatibus. Sed errem ignota facilisi ut, pri posse tation id. Te quo invenire maiestatis. Ea nec labores nominavi rationibus, mei soluta aeterno persius te.</p>
+		  <span class='article'>
+			<h5>WASHINGTON - </h5>
+			<p>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. Utamur aperiri ad nec, timeam veritus qualisque no has. Assum erroribus suscipiantur eum ne, tota iuvaret eu mea. Inimicus splendide voluptaria sed cu, sea dicat mollis an.</p>
+			<br/><br/>
+			<p>An tale complectitur interpretaris est, percipitur accommodare at nec, in simul feugiat est. Ius tota laboramus democritum cu, ex mea alii delicatissimi. Id explicari persequeris vim, meliore incorrupte usu ei.</p>
+			<br/><br/>
+			<p> Ad mel oporteat referrentur, quo ne ullum choro reprehendunt, ne mel populo delicatissimi necessitatibus. Sed errem ignota facilisi ut, pri posse tation id. Te quo invenire maiestatis. Ea nec labores nominavi rationibus, mei soluta aeterno persius te.</p>
 		  </span>
 		</div>
-		<div class='span-1-3-lg span-1-1'>
-		  <div class='no-pad span-1-2-sm span-1-1-md' id='side-title'>
-			<p>Lorem Ipsum Dolor</p>
+		<div class='span-1-3-md span-1-1 right-rail'>
+		  <div class='no-pad span-1-2-sm span-1-1-md side-title'>
+			<h4>Lorem Ipsum Dolor</h4>
 		  </div>
-		  <div class='no-pad span-1-2-sm span-1-1-md'>
+		  <div class='span-1-2-sm span-1-1-md'>
 			<img src='images/r-681.jpeg' class='flex-img'  id='side-img'>
 		  </div>
-		  <div class='no-pad span-1-2-sm span-1-1-md' id='side-info'>
-		  	<p>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. </p>
+		  <div class='no-pad span-1-2-sm span-1-1-md side-info'>
+		  	<h4>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. </h4>
 		  </div>
-		  <div class='no-pad span-1-2-sm span-1-1-md' id='side-article'>
+		  <div class='span-1-2-sm span-1-1-md side-article'>
 			<p>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. Utamur aperiri ad nec, timeam veritus qualisque no has.</p>
 		  </div>
-		  <div class='no-pad span-1-2-sm span-1-1-md' id='side-title'>
-		  	<p>Lorem Ipsum Dolor</p>
+		  <div class='no-pad span-1-2-sm span-1-1-md side-title'>
+		  	<h4>Lorem Ipsum Dolor</h4>
 		  </div>
-		  <div class='no-pad span-1-2-sm span-1-1-md'>
+		  <div class='span-1-2-sm span-1-1-md'>
 		  	<img src='images/r-681.jpeg' class='flex-img'  id='side-img'>
 		  </div>
-		  <div class='no-pad span-1-2-sm span-1-1-md' id='side-info'>
-		   	<p>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. </p>
+		  <div class='no-pad span-1-2-sm span-1-1-md side-info'>
+		   	<h4>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. </h4>
 		  </div>
-		  <div class='no-pad span-1-2-sm span-1-1-md' id='side-article'>
+		  <div class='span-1-2-sm span-1-1-md side-article'>
 			<p>Lorem ipsum dolor sit amet, luptatum oportere et pro. Ad sonet eleifend erroribus usu, est ut libris vocent facilisi. Utamur aperiri ad nec, timeam veritus qualisque no has.</p>
 		  </div>
 		</div>
 	  </div>
-	  <div class='span-1-1'>
-	  	<h5>You May Also Like</h5>
-
+	  <div class='span-1-1 wrapper'>
+	  	<h3>You May Also Like</h3>
+		<div class="jcarousel-wrapper">
+            <div class="jcarousel">
+                <ul>
+                    <li><img src="images/r-681.jpeg" alt="Image 1"></li>
+                    <li><img src="images/r-681.jpeg" alt="Image 2"></li>
+                    <li><img src="images/r-681.jpeg" alt="Image 3"></li>
+                    <li><img src="images/r-681.jpeg" alt="Image 4"></li>
+                    <li><img src="images/r-681.jpeg" alt="Image 5"></li>
+                    <li><img src="images/r-681.jpeg" alt="Image 6"></li>
+                </ul>
+            </div>
+            <a href="#" class="jcarousel-control-prev">
+            	<i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="jcarousel-control-next">
+            	<i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            </a>
+            <p class="jcarousel-pagination"></p>
+        </div>
 	  </div>
 	</div>
 	<div class='grid no-pad span-1-1'>
