@@ -31,8 +31,22 @@
 .wrapper h3{
 	padding-left: 15px;
 }
+.jcarousel .image-text{
+	bottom:10px;
+	width:90%;
+	padding-left: 5px;
+}
+.jcarousel .title{
+	font-size: 1.8rem;
+}
+.jcarousel .subtitle{
+	margin-bottom: 5px;
+	height: 40px;
+	white-space: pre-wrap;
+}
 .jcarousel-wrapper {
-    margin: 15px;
+    // margin: 15px;
+    margin:40px;
     position: relative;
 }
 .jcarousel {
@@ -49,7 +63,7 @@
 }
 .jcarousel li {
     float: left;
-    margin-right: 20px;
+    // margin-right: 20px;
 }
 .jcarousel img {
     display: block;
@@ -60,15 +74,15 @@
 .jcarousel-control-next {
     position: absolute;
     top: 50%;
-    margin-top: -15px;
-    // color: #000;
-    color: #fff;
+    // margin-top: -15px;
+    color: #000;
+    // color: #fff;
 }
 .jcarousel-control-prev {
     left: 15px;
 }
 .jcarousel-control-next {
-    right: 15px;
+    right: 8px;
 }
 .jcarousel-pagination {
 	display: none;

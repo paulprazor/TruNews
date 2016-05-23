@@ -8,19 +8,6 @@
 	color: white;
 	margin: 20px 0 20px 0;
 }
-.image-text{
-	position:absolute;
-    background: -webkit-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* Standard syntax (must be last) */
-}
-.content .image-text h3{
-	font-size: 1.8rem;
-}	
-.content .image-text p{
-	font-size: 1.2rem;
-}
 #topHeadlines{
 	color: white;
 	position:relative;
@@ -68,26 +55,11 @@
 .features-article:nth-of-type(even){
 	float: right;
 }
-
 .features-article:last-of-type{
 	padding: 0;
 }
-
 .features-articleImage{
 	width: 100%
-}
-.title, .subtitle{
- 	color:white;
-	display:block;
-	text-overflow:clip;
-	overflow:hidden;
-	margin: 5px 0 0 5px;
-}
-.title{
-	white-space: pre-wrap;
-}
-.subtitle{
-	white-space: nowrap;
 }
 .topHeadlines-container .subtitle{
 	width:100%;
