@@ -40,13 +40,18 @@
 .tweet, .facebook{
 	display: inline;
 	background-color: #000;
-	margin: 30px;
-	padding: 20px 100px;
 	color: #fff;
 	font-size: 30px;
+	padding: 20px 100px;
+}
+.share [class*='span-']:last-of-type{
+	float: left;
 }
 .jcarousel [class*='span-']:last-of-type{
 	float:left;
+}
+.wrapper{
+	padding-top: 30px;
 }
 .wrapper h3{
 	padding-left: 15px;
@@ -118,5 +123,10 @@
 	}
 	.share{
 		display:block;
+	}
+}
+@media (max-width: 450px){
+	.tweet, .facebook{
+		padding: 15px 50px;
 	}
 }
