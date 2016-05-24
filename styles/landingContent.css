@@ -15,10 +15,10 @@
 	font-size: 1.7rem;
 }
 .side-title h4{
-	padding-left: 10px;
+	padding-bottom: 10px;
 }
 .side-info h4{
-	padding: 5px 0 5px 10px;
+	padding: 10px 0 10px 0;
 }
 .side-title p{
 	font-weight: bold;
@@ -27,6 +27,23 @@
 }
 .side-article, .side-info h4{
 	line-height: 1.3;
+}
+.share{
+	display:none;
+}
+.share a{
+	text-decoration: none;
+}
+.socialShare{
+	padding: 40px 0 40px 0;
+}
+.tweet, .facebook{
+	display: inline;
+	background-color: #000;
+	margin: 30px;
+	padding: 20px 100px;
+	color: #fff;
+	font-size: 30px;
 }
 .jcarousel [class*='span-']:last-of-type{
 	float:left;
@@ -94,4 +111,12 @@
     -webkit-box-shadow: 0 0 2px #F0EFE7;
     -moz-box-shadow: 0 0 2px #F0EFE7;
     box-shadow: 0 0 2px #F0EFE7;
+}
+@media (max-width: 769px){
+	.right-rail{
+		display: none;
+	}
+	.share{
+		display:block;
+	}
 }
