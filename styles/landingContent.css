@@ -78,7 +78,7 @@
     overflow: hidden;
     width: 100%;
 }
-.jcarousel ul {
+.showMobile {
     width: 20000em;
     position: relative;
     list-style: none;
@@ -128,5 +128,35 @@
 @media (max-width: 450px){
 	.tweet, .facebook{
 		padding: 15px 50px;
+	}
+	.jcarousel-control-prev,
+	.jcarousel-control-next {
+		display:none;
+	}
+	.showMobile{
+		width: 100% !important;
+	}
+	.showMobile [class*='span-'] {
+		float: none;
+	}
+	.image-text{
+		position: relative !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+	.image-text h4{
+		margin: 5px 0 0 0 !important;
+	}
+	.showMobile a{
+		text-decoration: none;
+	}
+	.title{
+		color: #000 !important;
+	}
+	.subtitle{
+		display: none;
+	}
+	.showMobile img{
+		width: 100%;
 	}
 }
