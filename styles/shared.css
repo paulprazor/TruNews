@@ -4,7 +4,7 @@ body{
 }
 .image-text{
 	position:absolute;
-    background: -webkit-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(1,0,0,0)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* Standard syntax (must be last) */

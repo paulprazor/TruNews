@@ -124,11 +124,6 @@
 	.share{
 		display:block;
 	}
-}
-@media (max-width: 450px){
-	.tweet, .facebook{
-		padding: 15px 50px;
-	}
 	.jcarousel-control-prev,
 	.jcarousel-control-next {
 		display:none;
@@ -138,6 +133,9 @@
 	}
 	.showMobile [class*='span-'] {
 		float: none;
+	}
+	.showMobile li{
+		width: 100% !important;
 	}
 	.image-text{
 		position: relative !important;
@@ -158,5 +156,10 @@
 	}
 	.showMobile img{
 		width: 100%;
+	}
+}
+@media (max-width: 450px){
+	.tweet, .facebook{
+		padding: 15px 50px;
 	}
 }

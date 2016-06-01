@@ -13,6 +13,7 @@
 	<link rel='stylesheet' type='text/css' href='styles/content.css'>
 	<link rel='stylesheet' type='text/css' href='styles/shared.css'>
 	<link rel='stylesheet' type='text/css' href='styles/footer.css'>
+	<link rel='stylesheet' type='text/css' href='styles/headlineCarousel.css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Nunito:400' rel='stylesheet' type='text/css'>
 	<link rel='stylesheet' type='text/css' href='styles/flickity.css'>
@@ -20,7 +21,7 @@
 	<script src="scripts/jquery-1.12.3.min.js"></script>
 	<script src="scripts/header.js"></script>
 	<script src="scripts/headlines.js"></script>
-	<script src="scripts/flickity.js"></script>
+	<script src="scripts/jquery.jcarousel.min.js"></script>
 	
 </head>
 
@@ -87,13 +88,14 @@
 		</header>
 	</div>
 
-	<div class='grid span-1-1'>
+	<div class='grid span-1-1 wrapper'>
 		<div class="span-1-1 ad">
 			<img src="" class="ad-image" alt="this will be a banner ad image">
 		</div>
-
-		<div class='span-1-1' id="topHeadlines">
-			<div class='span-2-4-md span-1-1-sm topHeadlines-container'>
+		<!-- <div class='jcarousel-wrapper'>
+		<div class='jcarousel'> -->
+		<ul class='span-1-1' id="topHeadlines">
+			<li class='span-2-4-md span-1-1-sm topHeadlines-container'>
 				<span class='topHeadlines'>Top Headlines</span>
 				<a href=''>
 					<img src='images/r-681.jpeg' class='topHeadlines-image'>
@@ -102,51 +104,49 @@
 						<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
 					</div>
 				</a>
-			</div>
+			</li>
+			<li class='span-1-4-md span-1-1-sm features-article'>
+				<a href=''>
+					<img src='images/r-681.jpeg' class='features-articleImage'>
+					<div class='image-text'>
+						<h3 class='title'>Lorem ipsum dolor sit amet, est cu saperet necessitatibus.</h3>
+						<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
+					</div>
+				</a>
+			</li>
 
-			<div class="grid features">
-				<div class='span-1-2-md span-1-1-sm features-article'>
-					<a href=''>
-						<img src='images/r-681.jpeg' class='features-articleImage'>
-						<div class='image-text'>
-							<h3 class='title'>Lorem ipsum dolor sit amet, est cu saperet necessitatibus.</h3>
-							<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
-						</div>
-					</a>
-				</div>
+			<li class='span-1-4-md span-1-1-sm features-article'>
+				<a href=''>
+					<img src='images/r-681.jpeg' class='features-articleImage'>
+					<div class='image-text'>
+						<h3 class='title'>Lorem ipsum dolor sit amet, est cu saperet necessitatibus.</h3>
+						<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
+					</div>
+				</a>
+			</li>
 
-				<div class='span-1-2-md span-1-1-sm features-article'>
-					<a href=''>
-						<img src='images/r-681.jpeg' class='features-articleImage'>
-						<div class='image-text'>
-							<h3 class='title'>Lorem ipsum dolor sit amet, est cu saperet necessitatibus.</h3>
-							<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
-						</div>
-					</a>
-				</div>
+			<li class='span-1-4-md span-1-1-sm features-article'>
+				<a href=''>
+					<img src='images/r-681.jpeg' class='features-articleImage'>
+					<div class='image-text'>
+						<h3 class='title'>Lorem ipsum dolor sit amet, est cu saperet necessitatibus.</h3>
+						<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
+					</div>
+				</a>
+			</li>
 
-				<div class='span-1-2-md span-1-1-sm features-article'>
-					<a href=''>
-						<img src='images/r-681.jpeg' class='features-articleImage'>
-						<div class='image-text'>
-							<h3 class='title'>Lorem ipsum dolor sit amet, est cu saperet necessitatibus.</h3>
-							<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
-						</div>
-					</a>
-				</div>
-
-				<div class='span-1-2-md span-1-1-sm features-article'>
-					<a href=''>
-						<img src='images/r-681.jpeg' class='features-articleImage'>
-						<div class='image-text'>
-							<h3 class='title'>Lorem ipsum dolor sit amet, est cu saperet necessitatibus.</h3>
-							<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-
+			<li class='span-1-4-md span-1-1-sm features-article'>
+				<a href=''>
+					<img src='images/r-681.jpeg' class='features-articleImage'>
+					<div class='image-text'>
+						<h3 class='title'>Lorem ipsum dolor sit amet, est cu saperet necessitatibus.</h3>
+						<p class='subtitle'>Prima zril decore eu sit, te praesent elaboraret scriptorem nam. Ex eum vero semper reprehendunt, te zril labitur blandit eam. Vim explicari iracundia ei, in iudico pertinax has.</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<!-- </div>
+		</div> -->
 		<div class="span-1-1 no-pad listenNow">
 			<a class='span-1-1 c' id="listenNow" href='http://www.trunews.com/listen/'>Listen Now</a>
 		</div>
